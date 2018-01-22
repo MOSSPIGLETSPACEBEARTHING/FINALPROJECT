@@ -1,4 +1,8 @@
 while(True):
     a = raw_input("WHAT IS IS YOUR NAME?")
-    print "PLEASE REPEAT"
+    if("you" in a):  #assuming they curse back at the program, thwy eould most likely use "you".
+        print "IS WHAT YOU ARE"
+else: 
+    print "PLEASE REPEAT"  # needs tweaking
+    
      
